@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+
+body {
+    background-color: #B2C7DF;
+    margin: 0px;
+}
+
+
+header {
+    background-color: rgba(27, 26, 94, 0.72);
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+}
+
+.title {
+    padding-top: 3rem;
+    padding-right: 5rem;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+
+}
+
+#sec-form {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+form {
+    display: grid;
+    grid-auto-flow: row;
+    padding-left: 5rem;
+}
+
+label {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+input {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.57);
+    width: 467px;
+    height: 54px;
+    font-family: 'Alegreya Sans SC';
+}
+
+button {
+    background: #1B1A5E;
+    border-radius: 10px;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+th {
+    background: rgba(64, 123, 255, 0.55);
+    border: 1px solid #767373;
+    min-width: 2 rem;
+    width: 102px;
+    height: 31px;
+
+}
